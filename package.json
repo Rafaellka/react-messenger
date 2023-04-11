@@ -1,0 +1,15 @@
+{
+  "name": "messanger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run server\" \"cd client && npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.3.0"
+  }
+}
